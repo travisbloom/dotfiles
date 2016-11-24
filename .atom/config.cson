@@ -1,0 +1,60 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "de9021e3-32d7-462b-b64a-25ee29a0f62e"
+  "color-picker":
+    automaticReplace: true
+    preferredFormat: "HEX"
+  core:
+    disabledPackages: [
+      "color-picker"
+      "autoclose-html"
+      "linter-pylint"
+    ]
+    ignoredNames: [
+      "*.pyc"
+      "*.DS_Store"
+      "*.git"
+      "rocketripapp/migrations/*"
+      "rocketripapp/fixtures/*"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+  editor:
+    invisibles: {}
+    tabLength: 4
+  "exception-reporting":
+    userId: "76cfc43a-4d9b-f096-79cd-a646b7961432"
+  "linter-eslint":
+    fixOnSave: true
+  "linter-pep8":
+    maxLineLength: 100
+  "linter-pylint":
+    executable: "%p/env/bin/pylint"
+  pigments:
+    extendAutocompleteToVariables: true
+    sourceNames: [
+      "**/*.sass"
+      "**/*.scss"
+      "**/*.css"
+      "**/*.js"
+    ]
+  react:
+    enabledForAllJavascriptFiles: true
+  "tree-view": {}
+  "webbox-color":
+    fillColorAsBackground: false
+  welcome:
+    showOnStartup: false
+".babel.regexp.source":
+  editor:
+    tabLength: 4
+".coffee.jsx.source":
+  editor:
+    tabLength: 4
+".graphql.source":
+  editor:
+    tabLength: 4
+".js.jsx.source":
+  editor:
+    tabLength: 4
